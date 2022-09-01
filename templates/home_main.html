@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+</head>
+    <link rel="stylesheet" type="text/css" href="../static/css/home_main.css"/>
+    <script type="text/javascript" src="../static/js/box.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+<body>
+    <div class="left_1">
+{#        <div class="home_top">#}
+{#            <p>欢迎来到主页</p>#}
+{#        </div>#}
+        <div class="home_button">
+            <!-- 左部 -->
+
+            <div class="home_button_left">
+                <div class="home_button_left_lq9Hgi" >
+                    <a href=/board?tab=realtime">
+                    <img src="/static/img/热搜.png">
+                    <p>热搜榜：</p>
+                    </a>
+                </div>
+
+                <div class="home_button_left_remen" >
+                    {% for redu in redu_list %}
+                        {% for redu1,redu2 in redu.items %}
+                            <div class="home_button_left_redu1">
+                                <a href="{{ redu2 }}"> {{ redu1 }}</a>
+                            </div>
+                        {% endfor %}
+                    {% endfor %}
+                </div>
+
+                <div class="home_button_left_remenbiaoqian">
+                     <p class="home_button_left_remenbiaoqian_p1">热门标签</p>
+                    <div class="home_button_left_remenbiaoqian_all">
+                        {% for rebiaoqian in rebiaoqian_list %}
+                            {% for rebiaoqian1,rebiaoqian2 in rebiaoqian.items %}
+                                <div class="home_button_left_remenbiaoqian_sl">
+                                    <a href="#">
+                                        <p>{{ rebiaoqian1 }}({{ rebiaoqian2 }})</p>
+                                    </a>
+
+                                </div>
+                            {% endfor %}
+
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- 中部 -->
+
+            <div class="home_button_center">
+                <div class="pagination_m1">
+
+                    {% for foo in page_queryset %}
+                        <div class="home_button_center_1">
+                            {{ foo.poetrys }}
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="pagination_m">
+                     <ul class="pagination">
+
+                        {{ page_string }}
+
+                     </ul>
+                     <form method="get">
+                        <div class="input-group" style="width: 200px">
+                            <input type="text" name="page" class="form-control" placeholder="页码">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">跳转</button>
+                            </span>
+                        </div>
+                     </form>
+                </div>
+
+
+            </div>
+
+            <!-- 右部 -->
+            <div class="home_button_right">
+                <div class="home_button_left_img">
+                    <img src="/static/img/myself.jpg" class="img_0">
+                    {% if user_status == 1 %}
+                        <p class="nicheng">{{ username }}</p>
+
+                    {% else %}
+                        <p class="nicheng">
+                            <a href="/login/">{{ login_req }}</a>
+                            <a href="/register/">/{{ register }}</a>
+                        </p>
+                    {% endif %}
+
+                </div>
+
+                <div class="home_button_left_time">
+                    <ul>
+                        <li><span id="hour"></span><span>时</span></li>
+                        <li><span id="minute"></span><span>分</span></li>
+                        <li><span id="second"></span><span>秒</span></li>
+                    </ul>
+                </div>
+                <div class="home_button_left_brief_introduction">
+                    <p class="home_button_left_jieshao1">介绍:</p>
+                    <p class = 'home_button_left_jieshao2'>进步和成长的过程总是有许多的困难与坎坷的。有时我们是由于志向不明，没有明确的目的而碌碌无为。但是还有另外一种情况，是由于我们自己的退缩，与自己“亲密”的妥协没有坚持到底的意志，才使得机会逝去，颗粒无收。</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+<script>
+    var hour = document.getElementById('hour');
+    var minute = document.getElementById('minute');
+    var second = document.getElementById('second');
+
+    function showTime() {
+        var oDate = new Date();
+        var iHours = oDate.getHours();
+        var iMinute = oDate.getMinutes();
+        var iSecond = oDate.getSeconds();
+        hour.innerHTML = AddZero(iHours);
+        minute.innerHTML = AddZero(iMinute);
+        second.innerHTML = AddZero(iSecond);
+    }
+    showTime();
+    setInterval(showTime, 1000);
+
+    function AddZero(n) {
+        if (n < 10) {
+            return '0' + n;
+        }
+        return '' + n;
+    }
+</script>
+</html>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e740ae34-d379-4905-83c3-a0715744ac54" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BYJULoNIkcxRFq2f2LDdQxh75N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\it_zhmao_boke\static" />
+      <recent name="C:\Users\pc\Desktop\it_zhmao_boke\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhihaimao\Desktop\it_zhmao_boke\static\img" />
+      <recent name="C:\Users\pc\Desktop\it_zhmao_boke\static\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.home_main.html">
+    <configuration name="home_main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/it_zhmao_boke/templates/home_main.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="redian_request" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="it_zhmao_boke" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redian_request.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="it_zhmao_boke" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boke_apps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boke_apps/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="it_zhmao_boke" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/it_zhmao_boke" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/it_zhmao_boke/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="it_zhmao_boke" type="Python.DjangoServer" factoryName="Django server">
+      <module name="it_zhmao_boke" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.home_main.html" />
+        <item itemvalue="Python.redian_request" />
+        <item itemvalue="Python.urls (1)" />
+        <item itemvalue="Python.urls" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e740ae34-d379-4905-83c3-a0715744ac54" name="默认更改列表" comment="" />
+      <created>1657077099722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657077099722</updated>
+      <workItem from="1657077100824" duration="1872000" />
+      <workItem from="1657088789440" duration="9133000" />
+      <workItem from="1657158231873" duration="15536000" />
+      <workItem from="1657246263520" duration="5559000" />
+      <workItem from="1657527208090" duration="1682000" />
+      <workItem from="1657706727002" duration="3967000" />
+      <workItem from="1657788640209" duration="2545000" />
+      <workItem from="1661328738778" duration="19356000" />
+      <workItem from="1661443188237" duration="7825000" />
+      <workItem from="1661747606960" duration="4904000" />
+      <workItem from="1661870777717" duration="1028000" />
+      <workItem from="1661920157702" duration="15564000" />
+      <workItem from="1661953647557" duration="1476000" />
+      <workItem from="1661955191786" duration="6331000" />
+      <workItem from="1662005545213" duration="10789000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="122" key="#redian_request" timestamp="1661331852263">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state x="574" y="122" key="#redian_request/0.0.1707.1019@0.0.1707.1019" timestamp="1661331852263" />
+    <state x="2598" y="8" key="#urls" timestamp="1657093507438">
+      <screen x="1920" y="-124" width="1920" height="1040" />
+    </state>
+    <state x="2598" y="8" key="#urls/0.0.1280.680/1920.-124.1920.1040@1920.-124.1920.1040" timestamp="1657093507438" />
+    <state x="2598" y="8" key="#urls_(1)" timestamp="1657162380571">
+      <screen x="1920" y="-124" width="1920" height="1040" />
+    </state>
+    <state x="2598" y="8" key="#urls_(1)/0.0.1280.680/1920.-124.1920.1040@1920.-124.1920.1040" timestamp="1657162380571" />
+    <state width="1663" height="125" key="GridCell.Tab.0.bottom" timestamp="1661362512429">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="125" key="GridCell.Tab.0.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1661362512429" />
+    <state width="1663" height="125" key="GridCell.Tab.0.center" timestamp="1661362512429">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="125" key="GridCell.Tab.0.center/0.0.1707.1019@0.0.1707.1019" timestamp="1661362512429" />
+    <state width="1663" height="125" key="GridCell.Tab.0.left" timestamp="1661362512428">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="125" key="GridCell.Tab.0.left/0.0.1707.1019@0.0.1707.1019" timestamp="1661362512428" />
+    <state width="1663" height="125" key="GridCell.Tab.0.right" timestamp="1661362512429">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="125" key="GridCell.Tab.0.right/0.0.1707.1019@0.0.1707.1019" timestamp="1661362512429" />
+    <state x="410" y="159" key="SettingsEditor" timestamp="1661348644905">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state x="2381" y="38" key="SettingsEditor/0.0.1280.680/1920.-124.1920.1040@1920.-124.1920.1040" timestamp="1657078270536" />
+    <state x="410" y="159" key="SettingsEditor/0.0.1707.1019@0.0.1707.1019" timestamp="1661348644905" />
+    <state x="585" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1662005545889">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state x="702" y="365" key="com.intellij.ide.util.TipDialog/-2560.0.1707.1027/0.0.2048.1104@0.0.2048.1104" timestamp="1661747606726" />
+    <state x="2578" y="220" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.-124.1920.1040@1920.-124.1920.1040" timestamp="1657246270177" />
+    <state x="585" y="337" key="com.intellij.ide.util.TipDialog/0.0.1707.1019@0.0.1707.1019" timestamp="1662005545889" />
+    <state x="702" y="365" key="com.intellij.ide.util.TipDialog/2560.0.1707.1027/0.0.2048.1104@0.0.2048.1104" timestamp="1657706727498" />
+    <state x="959" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1661959388282">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state x="959" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1707.1019@0.0.1707.1019" timestamp="1661959388282" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/it_zhmao_boke$redian_request.coverage" NAME="redian_request Coverage Results" MODIFIED="1661352811069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
